@@ -1,0 +1,10 @@
+{ test.tny }
+read x      ;
+read    y;
+z = x + y;
+repeat:
+    z := z-   1;
+until z = 0;
+
+write z;
+end;
